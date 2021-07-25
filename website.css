@@ -1,0 +1,108 @@
+body{
+    background-image: url(Lunch/back.png);
+    background-repeat: repeat;
+}
+h6{
+            font-size: 30px;
+            font-family: cursive;
+            color:red;
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+h4{
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
+}
+li {
+  float: right;
+  
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+    float: right;
+  display: block;
+  color: white;
+    font-size: 25px;
+  text-align: center;
+  padding: 44px 46px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: lightgray;
+}
+.content{
+    height:90%;
+    width:100%;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 50%;
+  width: 100%;
+    filter:brightness(50%);
+}
+.centered {
+    font-size: 70px;
+    font-family:cursive;
+    font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color:white;
+}
+.centered h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family:cursive;
+    color:white;
+}
+.table table{
+            font-family: cursive;
+    text-align: center;
+    align-content: center;
+     
+        }
+.table table img{
+     box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.footer table{
+    padding-left: 0px;
+    font-family: cursive;
+    text-align: center;
+    align-content: center;
+}
+.footer table body{
+    background-color: black;
+}
+h3{
+    font-size: 40px;
+    color:red;
+    text-align: center;
+    align-content:center;
+    font-family: cursive;
+}
