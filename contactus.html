@@ -1,0 +1,167 @@
+<html>
+<head>
+    <style>
+        body{
+    background-image: url(Lunch/back.png);
+    background-repeat: repeat;
+}
+     .image img{
+         filter: brightness(50%);
+            box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+        }
+           
+        .centered {
+    font-size: 100px;
+    font-family:cursive;
+    font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+            color:white;
+}
+        
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+    float: right;
+  display: block;
+  color: white;
+    font-size: 25px;
+  text-align: center;
+  padding: 44px 46px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: gray;
+}
+        h1{
+            font-size: 30px;
+            font-family:cursive;
+            text-align: center;
+        }
+        
+        
+        h4{
+    font-family: cursive;
+    color: white;
+    font-size: 25px;
+}
+        .footer table{
+            padding: 20 20 20 20;
+            text-align: center;
+            align-content: center;
+        }
+        input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    font-size: 30px;
+            font-family: cursive;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+        form{
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 30px;
+            font-family: cursive;
+            background-color: lightgrey;
+            margin-left: 30%;
+            margin-right: 30%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        h6{
+            font-size: 30px;
+            font-family: cursive;
+            color:red;
+        }
+    </style>
+    </head>
+    <body>
+        <ul>
+  <li><a class="active" href="contactus.html">Contact Us</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <li><a href="dinner.html">Dinner</a></li>
+    <li><a href="lunch.html">Lunch</a></li>
+    <li><a href="breakfast.html">Breakfast</a></li>
+  <li><a href="website.html">Home</a></li>
+            <li><h4>Foodish Mumb@i&nbsp;&nbsp;&nbsp;</h4></li>
+</ul>
+        
+    <div class="image">
+        <img src="Restaurant/int4.jpg" height="500px" width="100%"><div class="centered">Contact Us</div></div>
+        
+         <div class="footer">
+    <table  width="100%" border=1>
+        <tr>
+            <td><h1>Phone</h1><h2>+91 9899997865,<br> +91 8989777898,<br>+91 9090989878,<br> +91 7878989898</h2></td>
+            <td><h1>Email</h1><br><h2>Foodishmumbai@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;</h2></td>
+            </tr>
+            <tr>
+            <td><h1>Location<br></h1><h2>Beside smart mart <br>Andheri east ,<br>Mumbai +91 8789898989&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2></td>
+            <td><h1>Opening Hours<br></h1><h2>
+                Monday-Sunday: 7AM to 11PM</h2></td>
+        </tr>
+        </table>
+             <h1>For More Information and latest updates fill the below details</h1>
+    <div>
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email Id..">
+
+    <label for="message">Message</label>
+    <input type="text" id="message" name="message">
+      
+    <input type="submit" value="Submit">
+  </form>
+</div>
+        </div>
+    <h6><marquee>Thank You!!! For Visiting The Website</marquee></h6>
+    </body>
+    
+</html>
